@@ -1,4 +1,4 @@
-# Do this in terminal
+#To run the code, do the following in the browser
 docker build -t expense-tracker .
 
 
