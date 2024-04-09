@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#app {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#expense-form input, #expense-form select, #expense-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #fdedc4;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#expense-form button {
+    background-color: #fed35e;
+    color: white;
+    cursor: pointer;
+}
+
+#expense-form button:hover {
+    background-color: #fed35e;
+}
+
+#expenses-list li {
+    list-style: none;
+    background-color: #eee;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
